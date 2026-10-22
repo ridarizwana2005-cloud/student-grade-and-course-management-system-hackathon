@@ -1,0 +1,9 @@
+USE student_management;
+
+SELECT student_id, name
+FROM students
+WHERE student_id NOT IN (
+    SELECT student_id
+    FROM enrollments
+    WHERE course_id = 'C102'
+);
