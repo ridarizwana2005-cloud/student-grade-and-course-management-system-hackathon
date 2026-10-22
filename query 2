@@ -1,0 +1,4 @@
+USE student_management;
+
+SELECT course_id, course_name
+FROM courses;
