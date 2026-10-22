@@ -1,0 +1,2 @@
+INSERT INTO prerequisites (course_id, prerequisite_course_id)
+VALUES ('C103', 'C102');
